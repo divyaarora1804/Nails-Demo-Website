@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Nails Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+<body>
+    <header>
+        <div class="menu-container">
+            <h1>Welcome to PIXIE NAILS</h1>
+            <button id="menuBtn">&#9776; Menu</button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="cartBtn">&#128722; Cart <span id="cartCount">0</span></button>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search">
+            <button id="searchBtn"><i class="fas fa-search"></i></button> <!-- Search icon -->
+        </div>
+    </header><br><br>
+    <main> 
+        <h1 align:"center" ; style="font-family: comic Sans MS ; font-size:xxx-large;"> <b>PIXIE NAILS</b></h1>
+        <section id="home" class="background-section">
+            
+            <img src="nails.jpg" width="70%" height="10%">
+            <p>Explore our wide range of fake nails and other nail products.</p>
+        </section><br><br>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div id="productList" class="product-list"></div>
+        </section><br><br>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Pixie Nails, where beauty meets confidence! Founded in 2018 by nail enthusiast and beauty aficionado, Jessica Smith, Pixie Nails was born out of a passion for empowering individuals to express their unique style through stunning nail art.
+
+                At Pixie Nails, we believe that everyone deserves to feel fabulous from tips to toes. That's why we're dedicated to providing the highest quality fake nails that not only look amazing but also feel comfortable and last longer. Each of our nail designs is meticulously crafted using premium materials and undergoes rigorous quality checks to ensure a flawless finish every time.
+                
+                Our mission at Pixie Nails is simple: to inspire confidence and creativity through innovative nail solutions. Whether you're a trendsetter looking for the latest designs or a classic beauty seeking timeless elegance, we have the perfect nails to suit your style. Our commitment to customer satisfaction means that we're always here to assist you, whether you need help choosing the right nails or advice on nail care.
+                
+                Beyond our dedication to beauty, Pixie Nails is deeply committed to giving back to the community. We regularly collaborate with local artists and charities to support causes that are close to our hearts. Because we believe that beauty is not only about looking good but also about doing good.
+                
+                As we continue to grow, our vision for Pixie Nails is to become the go-to destination for all your nail needs. From everyday glam to special occasions, we'll be there to help you shine bright and feel confident in every moment.
+                
+                Thank you for choosing Pixie Nails to be a part of your beauty journey. Let's make every nail moment a glamorous one!
+                
+                ---
+                
+                Feel free to customize this example to fit your business's unique story and values!</p>
+        </section><br><br>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Get in touch with us.</p>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div id="response"></div>
+        </section>
+    </main><br><br><hr class="custom-line">
+    <footer>
+        <p>&copy; 2024 PIXIE NAILS </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
